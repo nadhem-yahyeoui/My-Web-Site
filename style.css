@@ -92,8 +92,8 @@ header.shadow {
   order: 3;
 }
 .home-img img {
-  width: 55%;
-  margin-left: 150px ;
+  width: 60%;
+  margin-left: 80px ;
 
 }
 .home-text span {
@@ -205,9 +205,8 @@ header.shadow {
 }
 skills__
 .skills-img img {
-  width: 80%;
+  width: 60%;
   padding-left: 4rem;
-  object-position: center;
 }
 .bars-box {
   position: relative;
@@ -216,6 +215,7 @@ skills__
   align-items: center;
   padding: 1rem 0;
   margin-bottom: 1rem;
+  margin: 10%;
 }
 .bars-box h3,
 span {
@@ -249,7 +249,7 @@ span {
   width: 84%;
 }
 .js-bar {
-  width: 74%;
+  width: 96%;
 }
 .react-bar {
   width: 80%;
@@ -305,6 +305,7 @@ span {
   grid-template-columns: repeat(auto-fit, minmax(400px, auto));
   gap: 1rem;
   margin-top: 2rem;
+  object-position: center;
 }
 
 .portfolio3-content {
@@ -317,6 +318,7 @@ span {
 .portfolio-img {
   overflow: hidden;
   border-radius: 0.5rem;
+  object-position: center;
 }
 .portfolio-img img {
   width: 100%;
@@ -356,9 +358,8 @@ form textarea {
   height: 200px;
 } 
 .midi{
-margin-left: 20%;
-margin-right: 20%;
-font-size: var(--p-font);
+margin: 10%;
+  font-size: var(--p-font);
 font-weight: 400;
 
 
@@ -392,19 +393,19 @@ button[type="submit"] {
 button[type="submit"]:hover {
   background-color:#0004ff}
 #status {
-  width: 90%;
-  max-width: 500px;
+  object-position: center;
+  width: 70%;
   text-align: center;
   padding: 10px;
-  margin:  auto;
+  margin:  10%;
   border-radius: 20px;
 }
 #status.success {
-  background-color: rgb(211, 250, 153);
+  background-color: rgb(43, 255, 0);
   animation: status 4s ease forwards;
 }
 #status.error {
-  background-color: rgb(250, 129, 92);
+  background-color: rgb(252, 56, 56);
   color: white;
   animation: status 4s ease forwards;
 }
