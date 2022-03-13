@@ -362,6 +362,8 @@ form textarea {
   height: 200px;
 } 
 .midi{
+  margin-left: 250px;
+  margin-right: 250px;
 
   font-size: var(--p-font);
 font-weight: 400;
